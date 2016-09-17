@@ -1,4 +1,2 @@
-﻿  Function1.c
-c:\users\nwuser.da\documents\visual studio 2015\projects\sailing-kadai\function1.c(52): warning C4033: 'hoge' : 関数には戻り値が必要です。
-c:\users\nwuser.da\documents\visual studio 2015\projects\sailing-kadai\function1.c(54): warning C4716: 'hoge': 値を返さなければいけません
+﻿  Chara2.c
   sailing-kadai.vcxproj -> C:\Users\nwuser.DA\Documents\Visual Studio 2015\Projects\sailing-kadai\Debug\sailing-kadai.exe
