@@ -2,6 +2,8 @@
 
 #define MAX 10
 
+// 意味のある名前にしよう
+// たとえばloopなど
 void hoge(int *, int );
 
 void main() {
@@ -18,6 +20,8 @@ void main() {
 	return;
 
 }
+
+
 void hoge(int *data, int x) {
 
 	
@@ -27,6 +31,7 @@ void hoge(int *data, int x) {
 		++data;					//ポインタを進める。
 		hoge(data, x + 1);		//再起呼び出し
 	}
+	// このelse条件は無駄ないほうがわかりやすい
 	else
 	{
 		return;
