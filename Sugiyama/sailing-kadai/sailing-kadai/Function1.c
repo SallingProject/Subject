@@ -3,10 +3,10 @@
 /* プロトタイプ宣言 */
 void hoge(int*);
 
-void main(){
+void main() {
 
 	/* 　変数　*/
-	int score = 0; 
+	int score = 0;
 
 	/*　処理　*/
 	printf("初期化前：%d\n", score);
@@ -17,10 +17,9 @@ void main(){
 
 	return;
 }
-void hoge(int* x){
+void hoge(int* x) {
 
 	*x = 10;
 
 	return;
 }
-
