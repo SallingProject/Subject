@@ -4,6 +4,7 @@
 
 // ˆÓ–¡‚Ì‚ ‚é–¼‘O‚É‚µ‚æ‚¤
 // ‚½‚Æ‚¦‚Îloop‚È‚Ç
+// ‚ ‚Æ‚Íˆø”‚ÉÅ‘å”‚ðÝ’è‚Å‚«‚ê‚Î‚¢‚¢‚©‚à‚Ë
 void hoge(int *, int );
 
 void main() {
