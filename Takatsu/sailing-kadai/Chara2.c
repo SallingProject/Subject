@@ -31,8 +31,11 @@ typedef struct
 
 
 /*構造体のプロトタイプ宣言*/
-void hoge(status *data);
+// 修正前
+//void hoge(status *data);
 
+// 改善案
+void SetStatusData(status *data);
 
 int main()
 {
@@ -42,7 +45,11 @@ int main()
 
 
 	 /*関数の参照*/
-	 hoge(&data);
+	 //改善前
+	 //hoge(&data);
+	 
+	 // 改善案
+	 SetStatusData(&data);
 
 	 /*表示*/
 	 printf("HP: %f\n", data.hp);
@@ -68,6 +75,23 @@ void  hoge(status *data)
 	data->defense = 4;
 
 
+
+	return;
+
+}
+
+// 改善案
+/******************************
+
+構造体タグ名: hoge
+引数        : ステータス型オブジェクト
+
+******************************/
+
+void SetStatusData(status *data) {
+	data->hp = 10;
+	data->attack = 6;
+	data->defense = 4;
 
 	return;
 
