@@ -1,13 +1,8 @@
-/*
-この問題の正答は、関数に配列の先頭のアドレスを引数として渡し、再起呼びだしを使ってひとつづつアドレスをずらして
-表示するのだと思いましたが、ポインタ変数で引数宣言した場合、再起呼びだしがうまくいきませんでした。
-調べるのはプライドが許してくれなかったので、構造を変えました。
-*/
-
 #include<stdio.h>
 
 #define MAX 10
 
+void hoge(int *, int );
 
 void main() {
 	
@@ -18,19 +13,23 @@ void main() {
 
 	/*　処理　*/
 
-LABEL:
-
-	if (i == MAX - 1)
-	{
-		printf("%d\n", score[i]);
-	}
-	else
-	{
-		printf("%d\n", score[i]);
-		i++;
-		goto LABEL; // L,22　LABELへジャンプ
-	}
+	hoge(score, i);
 
 	return;
 
+}
+void hoge(int *data, int x) {
+
+	
+	if (x < MAX)	//仮引数ｘが10未満の場合
+	{	
+		printf("%d\n", *data);	//dataのポインタの中身を表示
+		++data;					//ポインタを進める。
+		hoge(data, x + 1);		//再起呼び出し
+	}
+	else
+	{
+		return;
+	}
+	
 }
