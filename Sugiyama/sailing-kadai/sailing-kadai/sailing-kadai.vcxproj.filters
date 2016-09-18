@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Chara1.c">
+    <ClCompile Include="Function2.c">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
