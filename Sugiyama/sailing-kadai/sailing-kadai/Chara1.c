@@ -5,10 +5,11 @@ void main() {
 
 /* \‘¢‘Ì‚ÌŒ^˜g‚ÌéŒ¾ */
 
-	struct status {
+	typedef struct  {
 		float HP;
 		float AT;
 		float DF;
-	};
+	}STATUS;
+
 	return;
 }
