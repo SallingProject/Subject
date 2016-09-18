@@ -8,5 +8,7 @@ void main()
 		float attack;  // Attack
 		float defense; // Dedence
 	};
+
+	struct status player = { 40, 30, 20 };
 	return;
 }
