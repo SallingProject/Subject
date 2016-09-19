@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Array1.c" />
+    <ClCompile Include="Chara3.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{089A6E64-935F-4ADA-A0CD-F5E834A7B16C}</ProjectGuid>
