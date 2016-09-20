@@ -19,7 +19,7 @@
 
 /*プロトタイプ宣言*/
 // loopやで
-void loop(int);
+int loop(int data[], int);
 
 
 
@@ -30,10 +30,10 @@ int main()
 	/*変数宣言*/
 	int Array[MAX] = { 1,2,3,4,5,6,7,8,9,10 };
 	int i = 0;
+	
 
 	/*関数呼び出し*/
-	loop(Array[i]);
-
+	loop(Array, i);
 
 
 	return 0;
@@ -43,7 +43,7 @@ int main()
 /*****************************************
 
 関数名: loop
-引数  : 配列Array[i]
+引数  : 配列Array int型変数i
 返り値: なし
 備考  : 関数内で変数iの値を表示
 変数iがMAX(10)より小さい時iの値を増やし
@@ -51,28 +51,21 @@ loop関数を再度呼び出す
 
 *****************************************/
 
-void loop(int i)
+int loop(int data[],int i)
 {
 
-	
 	
 	if(i < MAX)
 	{
 
-		printf("%d\n", i);
-		++i;
+		printf("%d\n", data[i]);
+		
 		
 		/*関数呼び出し*/
-		loop(i);
+		loop(data, i + 1);
 
 	}
-	else
-	{
-
-		printf("%d\n", i);
-
-	}
-
+	
 	return;
 
 }
