@@ -3,28 +3,35 @@
 struct status
 {
 	float life;    // HP
-	float attack;  // Attack
-	float defense; // Defence
+	float attack;  // ATK
+	float defense; // DEF
 };
 
-struct status players();
+void input(struct status *player);
 
 void main()
 {
 	struct status player;
 
-	player = players();
+	input(&player);
 
 	printf("HP :%f\n", player.life);
 	printf("ATK:%f\n", player.attack);
 	printf("DEF:%f\n", player.defense);
-
+		
 	return;
 }
 
-struct status players()
+void input(struct status *player)
 {
-	struct status player = { 40, 30, 30 };
+	player->life = 40;
+	player->attack = 30;
+	player->defense = 20;
 
-	return player;
+	return;
+	/* ポインタ理解用
+	printf("HP :%f\n", player->life);
+	printf("ATK:%f\n", player->attack);
+	printf("DEF:%f\n", player->defense);
+	*/
 };
