@@ -2,7 +2,7 @@
 using namespace std;
 
 class STATUS {
-public:
+	private:
 		int HP;
 		int AT;
 		int DF;
