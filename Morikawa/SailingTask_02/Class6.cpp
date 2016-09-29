@@ -12,7 +12,7 @@ public:
 
 class Derivation : public Base {
 public:
-	virtual void derivation() {
+	void derivation() {
 		// XVˆ—
 		cout << "Derivation" << endl;
 	}
