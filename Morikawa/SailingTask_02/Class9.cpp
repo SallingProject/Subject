@@ -19,7 +19,7 @@ public:
 	}
 	void initialize() {    // ‰Šú‰»
 		cout << "initialize" << endl;
-	}
+	} 
 };
 
 void main() {
