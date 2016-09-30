@@ -23,17 +23,11 @@ public:
 }; 
  
 void main() { 
-	SceneBase* pBase; 
-	SceneGame* pGame = new SceneGame; 
-	 
-	// アップキャストを行う 
-	pBase = pGame; 
-	 
-	SceneGame Game; 
-	 
-	Game.update(); 
-	Game.render(); 
-	Game.initialize(); 
+	SceneBase* pBase = new SceneGame; 
+
+	Game->update(); 
+	Game->render(); 
+	Game->initialize(); 
 	 
 	return; 
 } 
