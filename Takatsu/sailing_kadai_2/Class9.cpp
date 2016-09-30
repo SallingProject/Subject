@@ -66,11 +66,8 @@ public:
 void main()
 {
 	/* 基底クラスのオブジェクト */
-	SceneBase *pBase;
-	SceneGame *pGame = new SceneGame;
+	SceneBase *pBase = new SceneGame;
 
-	/* アップキャスト */
-	pBase = pGame;
 
 	pBase->update();
 	pBase->render();
