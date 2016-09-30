@@ -6,7 +6,8 @@
 
 using namespace std;
 
-void Title::Start() { // 処理の開始
+void Title::Initialize() { // 処理の開始
+
 	Title::Output();
 	Title::Input();
 

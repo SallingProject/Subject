@@ -8,9 +8,8 @@ void main() {
 	Game game;
 
 	while (1) {
-
-		title.Start();
-		game.Start();
+		title.Initialize();
+		game.Initialize();
 	}
 
 	return;

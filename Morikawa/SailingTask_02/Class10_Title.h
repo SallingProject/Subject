@@ -11,8 +11,7 @@
 class Title : public Scene {
 
 public:
-	void Start();
-
+	void Initialize();
 	void Output();
 	void Input();
 };

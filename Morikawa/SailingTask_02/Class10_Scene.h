@@ -8,11 +8,9 @@
 class Scene {
 
 public:
-	virtual void Start() = 0;    // 処理の開始
-
-	virtual void Initialize() {} // 初期化処理
-	virtual void Input() {}      // 入力処理
-	virtual void Output() {}     // 出力処理
+	virtual void Initialize() = 0; // 初期化処理
+	virtual void Input() = 0;      // 入力処理
+	virtual void Output() = 0;     // 出力処理
 };
 
 #endif // _SCENE_H_

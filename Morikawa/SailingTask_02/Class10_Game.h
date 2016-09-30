@@ -11,8 +11,6 @@
 class Game : public Scene {
 
 public:
-	void Start();
-
 	void Initialize();
 	void Input();
 	void Output();
