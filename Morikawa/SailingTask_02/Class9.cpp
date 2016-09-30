@@ -11,22 +11,29 @@ public:
 
 class SceneGame : public SceneBase {
 public:
-	virtual void update() {        // 更新処理
+	void update() {        // 更新処理
 		cout << "update" << endl;
 	}
-	virtual void render() {        // 描画処理
+	void render() {        // 描画処理
 		cout << "render" << endl;
 	}
-	virtual void initialize() {    // 初期化
+	void initialize() {    // 初期化
 		cout << "initialize" << endl;
 	}
 };
 
-/* 動作確認用
 void main() {
-	SceneGame test;
+	SceneBase* pBase;
+	SceneGame* pGame = new SceneGame;
 
-	test.update();
+	// アップキャストを行う
+	pBase = pGame;
+
+	SceneGame Game;
+
+	Game.update();
+	Game.render();
+	Game.initialize();
 
 	return;
-} */
+}
