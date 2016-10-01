@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-class SCREEN_BASE {
+class SCENE_BASE {
 
 public:
 	virtual void Update() = 0;
