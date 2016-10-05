@@ -19,6 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Scene.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="class10.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

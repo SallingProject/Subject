@@ -6,7 +6,7 @@ private:
 	int m_HP;
 	int m_AT;
 	int m_DF;
-public:
+//public:
 	STATUS(int, int, int);
 	void Disp();
 };

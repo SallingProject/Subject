@@ -5,7 +5,7 @@ using namespace std;
 
 int Title();
 void StartGame();
-int gameInit();
+
 
 void main() {
 
@@ -109,7 +109,7 @@ void StartGame() {
 			if (p_number[0] == e_number[2])brow++;
 			if (p_number[1] == e_number[2])brow++;
 
-			cout << "HIT:" << hit << " BROW" << brow << endl;
+			cout << "HIT:" << hit << " BROW:" << brow << endl;
 
 		} while (hit != 3);
 
