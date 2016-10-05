@@ -7,6 +7,7 @@ class BASE {
 		virtual void Update()
 		{
 			cout << "Base" << endl;
+
 		}
 };
 
