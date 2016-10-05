@@ -1,2 +1,9 @@
-﻿  Class2.cpp
-  sailing_kadai_2.vcxproj -> c:\users\nwuser.da\documents\visual studio 2015\Projects\sailing_kadai_2\Debug\sailing_kadai_2.exe
+﻿  Class10.cpp
+c:\users\rikuk\desktop\git\sailingproject\subject\takatsu\sailing_kadai_2\class10.cpp(55): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\conio.h(452): note: 'getch' の宣言を確認してください
+c:\users\rikuk\desktop\git\sailingproject\subject\takatsu\sailing_kadai_2\class10.cpp(112): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\conio.h(452): note: 'getch' の宣言を確認してください
+c:\users\rikuk\desktop\git\sailingproject\subject\takatsu\sailing_kadai_2\class10.cpp(119): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\conio.h(452): note: 'getch' の宣言を確認してください
+  sailing_kadai_2.vcxproj -> C:\Users\rikuk\Desktop\Git\SailingProject\Subject\Takatsu\sailing_kadai_2\Debug\sailing_kadai_2.exe
+  sailing_kadai_2.vcxproj -> C:\Users\rikuk\Desktop\Git\SailingProject\Subject\Takatsu\sailing_kadai_2\Debug\sailing_kadai_2.pdb (Full PDB)
