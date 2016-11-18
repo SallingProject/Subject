@@ -1,0 +1,4 @@
+﻿  MapObj.cpp
+c:\users\nwuser.da\desktop\cafe\game\mr.driller\mapobj.cpp(262): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1316): note: 'itoa' の宣言を確認してください
+  Mr.Driller.vcxproj -> C:\Users\nwuser.DA\Desktop\Cafe\Game\Debug\Mr.Driller.exe
